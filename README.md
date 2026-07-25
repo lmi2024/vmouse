@@ -29,7 +29,7 @@
 
 1. скачать и распаковать [нужный архив](/download)
     ```
-    curl -sL http://vmouse.plumbus.online/tarball/trunk/download.tar.gz \
+    curl -sL https://github.com/lmi2024/vmouse/releases/download/latest/release.tar.gz \
         | tar -xzf - --strip-components=1
     ```
 
