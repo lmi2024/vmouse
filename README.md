@@ -27,7 +27,7 @@
 
 # Установка
 
-1. скачать и распаковать [нужный архив](/download)
+1. скачать и распаковать [архив](https://github.com/lmi2024/vmouse/releases/download/latest/release.tar.gz)
     ```
     curl -sL https://github.com/lmi2024/vmouse/releases/download/latest/release.tar.gz \
         | tar -xzf - --strip-components=1
