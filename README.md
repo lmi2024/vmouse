@@ -41,8 +41,10 @@
 
 1. если установлен [nix package manager](https://github.com/nixos/nix) и включены [flakes](https://nixos.wiki/wiki/Flakes)
     ```
-    nix develop --command sh -c \
-        'PATH="$PATH:$PWD/.redodist" TARGET="$HOME/.local/bin/vmouse" redo install'
+    nix develop 
+    PATH="$PATH:$PWD/.redodist" \
+    TARGET="$HOME/.local/bin/vmouse" \
+    redo install
     ```
 
 1. иначе необходим компилятор (clang/gcc/tcc/etc.) и ar (binutils)
