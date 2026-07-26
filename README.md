@@ -3,6 +3,8 @@
 
 Экстремально простой эмулятор мыши для тех, у кого аллергия на реальную.
 
+Написан на си, никаких зависимостей кроме ядра и стандартной библиотеки.
+
 Пригоден в качестве one-shot утилиты.
 
 ---
@@ -33,15 +35,19 @@
 
 # Установка
 
-1. скачать и распаковать [архив](https://github.com/lmi2024/vmouse/releases/download/latest/release.tar.gz)
+Готовые бинарные файлы не публикуются, предполагается, что пользователь в состоянии собрать программу с нужными ему опциями и флагами.
+
+1. скачать и распаковать [архив истодного кода](https://github.com/lmi2024/vmouse/releases/download/latest/release.tar.gz)
     ```
-    curl -sL https://github.com/lmi2024/vmouse/releases/download/latest/release.tar.gz \
+    curl \
+        -sL https://github.com/lmi2024/vmouse/releases/download/latest/release.tar.gz \
         | tar -xzf - --strip-components=1
     ```
 
 1. если установлен [nix package manager](https://github.com/nixos/nix) и включены [flakes](https://nixos.wiki/wiki/Flakes)
     ```
-    nix develop 
+    nix develop
+
     PATH="$PATH:$PWD/.redodist" \
     TARGET="$HOME/.local/bin/vmouse" \
     redo install
