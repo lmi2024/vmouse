@@ -40,7 +40,7 @@
 
 Готовые бинарные файлы не публикуются, предполагается, что пользователь в состоянии собрать программу с нужными ему опциями и флагами.
 
-1. скачать и распаковать [архив истодного кода](https://github.com/lmi2024/vmouse/releases/download/latest/release.tar.gz)
+1. скачать и распаковать [архив исходного кода](https://github.com/lmi2024/vmouse/releases/download/latest/release.tar.gz)
     ```
     curl \
         -sL https://github.com/lmi2024/vmouse/releases/download/latest/release.tar.gz \
