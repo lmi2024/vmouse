@@ -17,9 +17,12 @@
 
 [GNU Affero GPL version 3 or later](http://www.gnu.org/licenses/agpl-3.0.html).
 
-# Зависимости
+# Системные требования
 
 - Ядро Linux 4.0+
+
+# Зависимости
+
 - libc
 
 # Что есть
